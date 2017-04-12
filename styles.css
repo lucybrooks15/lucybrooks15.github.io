@@ -81,7 +81,7 @@ width: 60%;
 
 .Aboutcontainer{
 max-width:100%;
-height:100px;
+height:300px;
 background-color:#c2e0ed;
 color: #666d89;
 padding-top:68px;
@@ -115,9 +115,9 @@ padding-right:30px;
 .PaintingContainer{
 max-width:100%;
 height:864px;
-background-color:#013d5c;
+background-color:#c0dcd8;
 max-width:100%;
-height:500px;
+height:900px;
 color:#6E7593;
 padding-top:64px;
 padding-left:40px;
@@ -127,22 +127,21 @@ border-bottom:10px solid #c6c8c9;
 }
 
 .Paintingtitle{
-color: white;
+color: #013d5c;
 font-family: 'Catamaran', sans-serif;
 font-weight:bold;
 font-size: 1.5rem;
-background-color:#013d5c;
+background-color:#c0dcd8;
 padding-bottom:7px;
 width:946px;
 }
 
 .morewords{
 font-size: 1rem;
-color: white;
+color:#013d5c;
 font-family: 'Catamaran' , sans-serif;
 font-weight: lighter;
 }
-
 
 
 .gallery {
@@ -150,8 +149,6 @@ font-weight: lighter;
     border: 2px solid #ffffff;
     float: left;
     width: 270px;
-    
-
 }
 
 .gallery:hover {
@@ -160,6 +157,7 @@ font-weight: lighter;
 .gallery img {
     width: 270px;
     height: 310px;
+
 }
 
 .desc {
@@ -169,7 +167,7 @@ font-weight: lighter;
 
 
 
-.DesignContainer{
+.designcontainer{
 max-width:100%;
 height:731px;
 background-color:#95a0a6;
@@ -220,97 +218,6 @@ color: #013d5c;
 
 
 
-
-.quotecontainer{
-max-width:100%;
-height:651px;
-background-color:#013d5c;
-max-width:100%;
-height:738px;
-color:#F0D8D9;
-padding-top:67px;
-padding-left:39px;
-padding-right:37px;
-padding-bottom:68px;
-border-bottom:10px solid #c6c8c9;
-}
-
-.quotetitle{
-color:#F0D8D9;
-font-family: 'Lato', sans-serif;
-font-weight:bold;
-font-size: 1.5rem;
-padding-bottom:10px;
-width:100%;
-}
-
-.quotewords{
-font-weight: lighter;
-font-size: 1.2rem;
-}
-
-
-.question1{
-background-color:#D6564F;
-color:#EC7E7E;
-width:619px;
-padding-top: 13px;
-padding-bottom: 13px;
-border-radius: 4px;
-}
-
-.question2{
-background-color:#D6564F;
-color:#EC7E7E;
-width:619px;
-padding-top: 13px;
-padding-bottom: 13px;
-}
-
-
-.question3{
-background-color:#D6564F;
-color:#EC7E7E;
-width:619px;
-padding-top: 13px;
-padding-bottom: 13px;
-}
-
-.question4{
-background-color:#D6564F;
-color:#EC7E7E;
-width:619px;
-padding-top: 13px;
-padding-bottom: 173px;
-}
-
-
-.contactcontainer{
-float: right;
-width: 309px;
-height: 208px;
-}
-
-.contacttitle{
-color:#F0D8D9;
-font-family: 'Lato', sans-serif;
-font-weight:bold;
-font-size: 1rem;
-}
-
-.contactwords{
-padding-top: 16px;
-color:#F0D8D9;
-font-family: 'Lato', sans-serif;
-font-weight:lighter;
-font-size: 0.8rem;
-}
-
-.contactlogo{
-float: left;
-}
-
-
 .bottombanner{
 max-width:100%;
 height:76px;
@@ -338,7 +245,6 @@ padding-bottom: 20px;
   height: 60px;
   max-width: 920px;
 
-
 }
 
 }
@@ -346,8 +252,11 @@ padding-bottom: 20px;
 }
 
 
-@media screen and (max-wdith:550px){
+@media screen and (max-wdith:800px){
 
+.gallery img {
+  width: 50%;
+}
 
 .logo{
 float: none;
@@ -362,8 +271,7 @@ text-align: center;
 margin-top: 16px;
 }
 
-
-.servicessection{
+.aboutsection{
 float: left;
 text-align: left;
 }
@@ -380,12 +288,12 @@ text-align: left;
 
 
 
-.Portfoliosection{
+.paintingsection{
 float: left;
 text-align: left;
 }
 
-.aboutus{
+.design{
 float: left;
 text-align: left;
 }
@@ -394,8 +302,3 @@ text-align: left;
 float: left;
 text-align: left;
 }
-
-
-}
-Chat Conversation End
-Type a message...
