@@ -218,6 +218,8 @@ color: #013d5c;
 
 
 
+
+
 .bottombanner{
 max-width:100%;
 height:76px;
@@ -241,8 +243,8 @@ padding-bottom: 20px;
 }
 
 .bottomlogo img {
-  width: 90px;
-  height: 60px;
+  width: 44px;
+  height: 30px;
   max-width: 920px;
 
 }
