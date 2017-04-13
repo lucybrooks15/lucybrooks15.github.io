@@ -81,8 +81,8 @@ width: 60%;
 
 .Aboutcontainer{
 max-width:100%;
-height:300px;
-background-color:#c2e0ed;
+height:330px;
+background-color:#cde7e3;
 color: #666d89;
 padding-top:68px;
 padding-left:36px;
@@ -96,7 +96,7 @@ color: #013d5c;
 font-family: 'Catamaran', sans-serif;
 font-weight: bold;
 font-size: 1.5rem;
-background-color:#c2e0ed;
+background-color:#cde7e3;
 font-weight: bold;
 }
 
@@ -105,9 +105,9 @@ color: #013d5c;
 font-family: 'Catamaran', sans-serif;
 font-weight: lighter;
 font-size: 1rem;
-background-color:#c2e0ed;
+background-color:#cde7e3;
 border-bottom:46px;
-width:1115px;
+width:600px;
 padding-right:30px;
 }
 
@@ -218,8 +218,6 @@ color: #013d5c;
 
 
 
-
-
 .bottombanner{
 max-width:100%;
 height:76px;
@@ -249,15 +247,12 @@ padding-bottom: 20px;
 
 }
 
-}
-
-}
 
 
 @media screen and (max-wdith:800px){
 
-.gallery img {
-  width: 50%;
+.gallery  {
+  width: 20%;
 }
 
 .logo{
@@ -271,36 +266,4 @@ padding-top: 15px;
 float: none;
 text-align: center;
 margin-top: 16px;
-}
-
-.aboutsection{
-float: left;
-text-align: left;
-}
-
-.maintitle{
-float: left;
-text-align: left;
-}
-
-.moretitle{
-float: left;
-text-align: left;
-}
-
-
-
-.paintingsection{
-float: left;
-text-align: left;
-}
-
-.design{
-float: left;
-text-align: left;
-}
-
-.quotesection{
-float: left;
-text-align: left;
 }
