@@ -91,7 +91,7 @@ padding-bottom:60px;
 border-bottom:10px solid #c6c8c9;
 }
 
-.maintitle{
+.abouttitle{
 color: #013d5c;
 font-family: 'Catamaran', sans-serif;
 font-weight: bold;
@@ -100,7 +100,7 @@ background-color:#cde7e3;
 font-weight: bold;
 }
 
-.moretitle{
+.aboutwords{
 color: #013d5c;
 font-family: 'Catamaran', sans-serif;
 font-weight: lighter;
@@ -136,7 +136,7 @@ padding-bottom:7px;
 width:946px;
 }
 
-.morewords{
+.paintingwords{
 font-size: 1rem;
 color:#013d5c;
 font-family: 'Catamaran' , sans-serif;
